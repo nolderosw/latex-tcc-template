@@ -1,0 +1,142 @@
+\chapter[Introdução]{Introdução}
+\label{cap:intro}
+
+PRINCIPAIS PROBLEMAS:
+
+\begin{itemize}
+    \item definição do tema e do problema
+    \item não se delimita o que é estudado, o corte da pesquisa e o problema
+    \item mostrar só “APLICAÇÃO DA CIÊNCIA DA COMPUTAÇÃO EM ALGO”, mas o trabalho com o tema deve contribuir para uma divisão temática da área. Por exemplo:
+\end{itemize}
+
+SUGESTÃO DE ROTEIRO:
+\begin{enumerate}
+    \item Contextualização do assunto com sua importância, significado para a área ligada com seu estudo, atualidade etc.
+
+          “Nos dias de hoje, um dos assuntos mais discutidos na área de redes tem sido...”\\“Atualmente, o emprego de metodologias ativas com o uso de tecnologia tem...”\\ “Pesquisas sobre visualização de dados são muito relevantes para o desenvolvimento de aplicações em XXXX, pois...”
+
+    \item CUIDADO!!!! Afirmações categóricas devem ter referências. Por exemplo, se você começar dizendo que a área de machine learning é muito importante para o diagnóstico médico, precisa citar um autor que dê respaldo.
+
+    \item Conceitos (poucos – uma a três citações porque serão mais bem desenvolvidos na fundamentação teórica)
+
+    \item Mostre como os autores abordam problemas relacionados ao assunto que você vai tratar
+
+    \item Identifique lacunas, incompletudes, situações específicas e melhorias que poderiam ser feitas no modo como os autores têm tratado o problema
+
+    \item Mostre como vai ATACAR UM PROBLEMA! Você pode dizer que um autor deixou de lado algo importante, que pode complementar uma solução, que pode abordar um problema de modo mais específico para uma situação particular etc. Aqui temos o “LEITMOTIV” do seu trabalho: um norte que deve guiar você em cada autor que for usar, metodologia que for aplicar, modos de analisar etc.
+
+\end{enumerate}
+
+Este documento e seu código-fonte são exemplos de referência de uso da classe \textsf{abntex2} e do pacote \textsf{abntex2cite}. O documento exemplifica a elaboração de trabalho acadêmico (tese, dissertação e outros do gênero) produzido conforme a ABNT NBR 14724:2011 \emph{Informação e documentação - Trabalhos acadêmicos - Apresentação}.
+
+A expressão ``Modelo Canônico'' é utilizada para indicar que \abnTeX\ não é modelo específico de nenhuma universidade ou instituição, mas que implementa tão somente os requisitos das normas da ABNT. Uma lista completa das normas observadas pelo \abnTeX\ é apresentada em \citeonline{abntex2classe}.
+
+
+Este documento deve ser utilizado como complemento dos manuais do \abnTeX\ \cite{abntex2classe,abntex2cite,abntex2cite-alf} e da classe \textsf{memoir} \cite{memoir}.
+
+Esperamos, sinceramente, que o \abnTeX\ aprimore a qualidade do trabalho que você produzirá, de modo que o principal esforço seja concentrado no principal: na contribuição científica.
+
+Exemplo de tabela: a Tabela~\ref{tab:dicas} mostra a pergunta que deve nortear o desenvolvimento de cada seção deste trabalho.
+
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+\begin{table}[h!]
+    \small
+    \caption{Orientações sucintas para desenvolvimento de cada seção deste trabalho.}
+    \begin{tabular}{|l|l|}
+        \hline
+        \rowcolor[gray]{0.9}
+        \multicolumn{1}{|c|}{\cellcolor[gray]{0.9}\textbf{Elemento textual}} & \textbf{Qual a pergunta que norteia seu desenvolvimento} \\ \hline
+        \textbf{\begin{tabular}[c]{@{}l@{}}Introdução (Motivação e\\ definição do problema)\end{tabular}}                                   & \begin{tabular}[c]{@{}l@{}}O que? - definir claramente o problema a ser abordado na pesquisa;\\ Por quê? - indicar a importância de resolver o problema\end{tabular}                                \\ \hline
+        \textbf{\begin{tabular}[c]{@{}l@{}}Introdução (Objetivos gerais e\\ específicos)\end{tabular}}                                   & \begin{tabular}[c]{@{}l@{}}Para que? - definir qual o objetivo geral da pesquisa;\\ Quais as etapas? - definir objetivos específicos que ajudarão a\\ atingir o objetivo geral\end{tabular}                                \\ \hline
+        \textbf{\begin{tabular}[c]{@{}l@{}}Introdução (Estrutura do\\ documento)\end{tabular}}                                   & \begin{tabular}[c]{@{}l@{}}Como o texto está organizado e apresentado?\\ O que será discutido em cada seção?\end{tabular}                                \\ \hline
+        \textbf{Trabalhos relacionados}                                      & \begin{tabular}[c]{@{}l@{}}Baseado em que? O que já foi feito? - discutir o estado da arte e\\ o que já foi estudado sobre o problema\end{tabular}                                \\ \hline
+        \textbf{Descrição da proposta}                                       & \begin{tabular}[c]{@{}l@{}}Qual a aplicabilidade? – a solução para o problema servirá a\\ que propósitos? onde será aplicável?\\ Como? - Indicar através de quais procedimentos, instrumentos\\ e mecanismos a investigação será conduzida;\\ O que já foi conseguido até aqui?\end{tabular}                               \\ \hline
+        \textbf{\begin{tabular}[c]{@{}l@{}}Propostas para Continuação \\ da Pesquisa, Cronograma\end{tabular}}                                  & \begin{tabular}[c]{@{}l@{}}O que ainda falta?\\ Em quanto tempo? - definir atividades e indicar quando tempo \\ estima-se empreender em cada uma delas\end{tabular}                               \\ \hline
+    \end{tabular}
+    \label{tab:dicas}
+\end{table}
+
+
+% --------------------------------------
+
+
+\section{Justificativa e Relevância do Trabalho}
+\label{sec:justificativa}
+Explicar porque foi escolhido esse tema, qual sua importância para a área, etc...
+
+DEVE:
+
+Demonstrar a relevância da pesquisa em questão. Informar que contribuições o estudo trará para a compreensão, a intervenção ou a solução do problema – justificativas incluem mostrar as várias contribuições do trabalho: educacionais, científico-tecnológicas, relação com outros trabalhos, retorno social e para a comunidade acadêmica etc.
+
+EVENTUALMENTE ACRESCENTAR:
+\begin{itemize}
+    \item por qual razão se deve investir tempo e dinheiro em sua pesquisa
+    \item a origem do tema retomando sua explicação
+    \item relevâncias:
+          \begin{itemize}
+              \item científica
+              \item social
+              \item específica
+          \end{itemize}
+\end{itemize}
+
+% --------------------------------------
+
+
+\section{Objetivos}
+\label{sec:objetivos}
+\subsection{Objetivo Geral}
+\label{subsec:objGeral}
+
+O objetivo principal deste trabalho ......
+OBJETIVO GERAL deve ter:
+\begin{itemize}
+    \item o máximo onde quero chegar – PENSE, em atingindo o objetivo, o que efetivamente obterá?
+    \item envolve compreender algo, mas não pode ser só isso\\
+          CUIDADO!!!!!!! “Estudar” (e outros VERBOS GERAIS) são o objetivo do aluno e não do trabalho!!\\
+          NO MESTRADO, DEVE-SE PENSAR MAIS NOS OBJETIVOS de PESQUISA E NÃO SÓ NOS OBJETIVOS TÉCNICOS!!!!
+    \item CUIDADO para não confundir as consequências do objetivo com O SEU objetivo!
+          Ex.: um sistema em geral não vai conscientizar, melhorar o ensino, tornar a empresa melhor
+    \item verbos SEMPRE no infinitivo impessoal:
+          “analisar, descrever, comparar, constituir, formar, ampliar, propor, melhorar” etc.
+\end{itemize}
+
+
+\subsection{Objetivos Específicos}
+\label{subsec:objespecificos}
+
+OBJETIVOS ESPECÍFICOS DEVEM:
+\begin{itemize}
+    \item ser os passos para chegar no geral
+    \item o conjunto deles forma o geral
+    \item pense nos passos e atividades de um videogame para ganhar (objetivo geral) um jogo
+    \item verbos no infinitivo: comparar, mapear, investigar, analisar…
+\end{itemize}
+
+% --------------------------------------
+
+
+\section{Metodologia}
+\label{sec:metodologia}
+
+A metodologia empregada para desenvolvimento do trabalho ....
+
+
+%% ------------------------------------------------------------------------- %%
+
+
+\section{Organização do Documento}
+\label{sec:organizacao}
+
+Os capítulos subsequentes estão organizados da seguinte maneira:
+
+\begin{itemize}
+    \item O conceito de ... é apresentado em detalhes no Capítulo~\ref{cap:capitulos}, incluindo uma descrição...
+
+    \item No Capítulo \ref{cap:capitulos} é apresentada a metodologia e...
+
+    \item As considerações finais e as propostas de continuação do trabalho são descritos no Capítulo~\ref{cap:capitulos}...
+\end{itemize}
+
